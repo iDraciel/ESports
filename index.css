@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-image: linear-gradient(to left top,#491866 30%,#e92f71);
+
+}
+.responsive1{
+  width: 100%;
+}
+
+.responsive {
+  width:100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px){
+  .responsive{
+    width: 100%;
+  }
+}
+p{
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+h1{
+font-family: 'Do Hyeon', sans-serif;
+font-size: 40px;
+font-weight: 300;
+text-align: center;
+}
+h2{
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width:50%;
+  padding: 10px 10px;
+}
+
+
+}
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 #e92f71;
+  
+  padding: 16px;
+  text-align: center;
+  /*
+  background-color:#e92f71;
+  */
+}
